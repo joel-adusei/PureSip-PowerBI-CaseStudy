@@ -1,6 +1,7 @@
 # SALES PERFORMANCE ANALYSIS
 ## Automating Sales Data Integration and Reporting with Power BI Folder Connections
-![image](https://github.com/user-attachments/assets/c4f0e9b5-7ab5-4902-ba68-374c94a38615)
+
+ ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection.png?raw=true)
 
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
 ## INTRODUCTION
