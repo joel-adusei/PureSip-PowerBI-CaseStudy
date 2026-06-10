@@ -1,96 +1,203 @@
 # SALES PERFORMANCE ANALYSIS
-## Leveraging MS Excel and Power BI to Automate Data Integration and Enhance Business Analysis through Local File Connectivity
+## Automating Sales Data Integration and Reporting with Power BI Folder Connections
 ![image](https://github.com/user-attachments/assets/c4f0e9b5-7ab5-4902-ba68-374c94a38615)
 
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
 ## INTRODUCTION
-This case study demonstrates how connecting a local data folder to Power BI streamlined the data analysis process by automating data ingestion and reducing manual workload. Using Excel and Power BI, an automated reporting workflow was developed to improve efficiency, data consistency, and business insights. A sales analysis dashboard was also created to provide stakeholders with real-time visibility into sales performance, trends, and key business metrics.
+This case study demonstrates how PureSip Beverages leveraged Microsoft Excel and Power BI to automate sales data integration through local folder connectivity. By connecting Power BI directly to a centralized folder containing retailer sales spreadsheets, the company eliminated manual data consolidation, improved reporting accuracy, and streamlined its sales analysis process.
+
+The solution enabled automatic data refresh whenever new sales files were added to the folder, ensuring stakeholders always had access to the latest sales information. Interactive dashboards were developed to provide visibility into sales performance, retailer contributions, regional trends, product demand, and revenue generation.
 ![image](https://github.com/user-attachments/assets/b256cb67-793a-4229-94ab-b1581ecf4cad)
 
 ## PROBLEM STATEMENT
-PureSip Beverages relies on individual spreadsheets maintained by each regional manager to track sales. This siloed approach posed several challenges:
+PureSip Beverages distributes popular beverage brands such as Coca-Cola, Fanta, and Sprite to major retailers including Costco, Walmart, Target, and Walgreens. Each regional manager maintained separate sales spreadsheets, creating several operational challenges:
+
 - Data Consolidation
-Consolidating data from individual spreadsheets for regional reporting was a time-consuming and error-pronemanual process.
+
+Combining multiple retailer spreadsheets into a unified sales report required significant manual effort, making the process time-consuming and prone to errors.
 
 - Data Accuracy
-Inconsistencies in spreadsheet formats and data entry practices across different locations led to inaccurate reporting.
+
+Variations in spreadsheet structures, naming conventions, and data-entry practices across regions often resulted in inconsistencies and reporting inaccuracies.
 
 - Limited Analysis
-Spreadsheets offered limited functionalities for advanced data analysis and visualization. They lacked insights into sales trends,
-and performance across locations.
+
+Traditional spreadsheet reporting provided limited capabilities for advanced analytics, making it difficult to identify sales trends, retailer performance, regional opportunities, and product demand patterns.
 
 
 ## AIM OF THE PROJECT
-- **Analyze Trends:** Identify patterns in hospital component issues and wastage using Power BI to understand their correlation and root causes.
-- **Optimize Inventory Management:** Provide data-driven insights to reduce wastage, especially from Time Expiry (TIMEX), and improve blood supply efficiency.
-- **Enhance Decision-Making:** Support IHSBSM with strategic recommendations for better forecasting, allocation, and utilization of blood components.
+- Automate the integration of sales data from multiple retailer spreadsheets using Power BI Folder Connections.
+- Improve data accuracy and consistency by eliminating manual consolidation processes.
+- Analyze sales performance across retailers, regions, and beverage brands.
+- Develop interactive dashboards to monitor key business metrics and support strategic decision-making.
+- Create a scalable reporting solution capable of accommodating future business growth.
 
+  
 ## METHODOLOGY 
-- **Business Understanding:** I defined project objectives to analyze trends in NHS hospital
-component issues and wastage.
-- **Data Understanding:** I explored the dataset to identify key features and
-relationships for analysis.
+Explored retailer sales datasets to understand key fields, business relationships, and reporting requirements.
 
-- **ETL Process:** I extracted, transformed, and loaded the data into Power BI for
-compatibility and analysis.
+**ETL Process**
 
-- **Data Modeling:** I created relationships between fact and dimension tables for
-structured analysis.
+Extracted data from multiple Excel files stored in a centralized folder, transformed and cleaned the data using Power Query, and loaded it into Power BI.
 
-- **Analysis & Visualization:** I used Power BI to generate trendline charts and
-visualizations, uncovering correlations and patterns in issues and wastage.
+**DATA MODELING**
 
-## MODELLING
-The data modeling for this project follows a star schema approach, where the **Fact Table** (containing hospital component issues and wastage records) is connected to multiple **Dimension Tables** to ensure efficient analysis. The **Fact Table** includes key metrics such as issue counts, wastage counts, product group names, and blood group names. It is linked to **Dimension Tables** like **Blood Group (O-, A+, etc.), Calender (Year, Quarter, Month), and Wastage Codes (TIMEX, TTMH, etc.)** through unique identifiers. This relational structure allows for seamless trend analysis, comparisons across different categories, and deeper insights into the root causes of wastage and inventory inefficiencies.
+Created relationships between sales transactions and supporting dimensions such as Date, Retailer, Product, and Region.
 
-![image](https://github.com/user-attachments/assets/2e3e66b0-be62-4eff-affd-e1f42defe90c)
+**Analysis & Visualization**
 
-## VIZUALIZATION
-- **Line Chart**
-- **Bar Chart**
-
-## Data Analysis
-### Line Chart
-- This chart reveals a strong correlation between hospital component issues and wastage, with both following similar yearly trends. Whenever component issues increase, wastage also rises proportionally. Notably, 2023 recorded the highest levels of both issues and wastage compared to previous years (2022 and 2023), indicating a need for improved inventory management strategies.
-![image](https://github.com/user-attachments/assets/fc628671-949c-4a94-99fe-d5af12a8fb4d)
-
-- A quarterly analysis of the correlation between component issues and wastage reveals distinct trends. In 2022, component issues peaked in Q2 before declining in Q3, while wastage followed a similar downward trend. However, in 2023, wastage exhibited a sharp upward trend from Q1 to Q3, surpassing component issues, particularly between Q2 and Q3. A deeper dive into monthly patterns suggests seasonality, with high component issues and low wastage observed in May (Q2) and August (Q3) of 2022. Conversely, in 2023, wastage peaked in September (Q3) while component issues remained relatively low.
-![image](https://github.com/user-attachments/assets/b83086ad-96a1-4f34-9673-f2a15258c3d6)
-
-- An analysis of component issue trends by product group reveals that Red Blood Cell (RBC) issues remained consistently high throughout the three-year period (2022–2024), significantly surpassing other components. Platelet (PLT) issues ranked second, while Pooled Cryo recorded the lowest issue volumes across all years.
-![image](https://github.com/user-attachments/assets/7e191e09-b28a-4942-b73f-749e5f626daf)
-
-- Platelets wastage trended upward from Q4 2022 to Q4 2023, peaking between Q1 and Q3 2023, while issues fluctuated across the quarters, indicating a potential mismatch between demand and inventory management.
-![image](https://github.com/user-attachments/assets/e0d83fc2-991c-48d9-895d-62ff1fa3ddcd)
-
-- Adult FFP wastage surged in Q2 2023, peaking significantly before declining in subsequent quarters, while issues displayed a consistent downtrend, highlighting a potential inefficiency in demand forecasting and stock utilization.
-![image](https://github.com/user-attachments/assets/cd0ef693-f6b6-431f-a2e3-41423124b845)
-
-- A Negative Blood Group Issues peaked in Q1 2023 and declined through Q2 and Q3, while wastage surged in Q2 before declining in Q3. This indicates a potential mismatch between demand and supply, highlighting the need for improved forecasting and inventory adjustments to minimize wastage.
-![image](https://github.com/user-attachments/assets/7abe224c-240e-41d4-920e-aeeff3e15a3d)
-
-- O Negative Blood Group Issues declined in Q3 2022, while wastage peaked in Q1–Q2 2023 before declining in Q3. This trend suggests potential inefficiencies in stock utilization, emphasizing the need for optimized allocation strategies to reduce wastage while ensuring adequate supply.
-![image](https://github.com/user-attachments/assets/56b9f349-b366-4b32-9815-7fcaaaf6caec)
-
-### Bar Chart
-- Red Cells have the highest units in both Issues (76.28%) and Wastage (44.78%). Platelets and Adult FFP follow in respective distributions, with Platelets having more Issues and Adult FFP having more Wastage. This highlights the need for targeted inventory controls, especially for Red Cells, to minimize wastage while maintaining adequate supply levels.
-![image](https://github.com/user-attachments/assets/ce732bbe-53e5-4187-8c10-fbc689db302d)
-
-- Root Cause of Wastage: Time Expiry (TIMEX) is the primary contributor, responsible for 31% of total wastage units, followed by TTMH at 15%, highlighting the need for improved stock rotation and demand forecasting strategies.
-![image](https://github.com/user-attachments/assets/7d8f0e85-88ca-43d7-8548-d265d4c9e786)
+Developed interactive dashboards and visualizations to uncover trends in revenue, units sold, retailer performance, and regional sales distribution.
 
 
-## RECOMMENDATION
-- **Target Top Wastage Causes:** Focus on minimizing the top 10 wastage drivers, especially Time Expiry (TIMEX), which contributes the most to wastage.
+## Data MODELLING
+The project follows a star schema data model designed to support efficient reporting and analysis.
 
-- **Optimize RBC Management:** Monitor and manage Red Blood Cell (RBC) stocks carefully due to their consistently high issues and wastage volumes.
+The central Sales Fact Table contains transactional metrics such as Units Sold, Sales Revenue, Order Date, Payment Date, and Price per Unit. This table is connected to several dimension tables, including:
 
-- **Adjust for Seasonal Trends:** Align inventory strategies with seasonal and quarterly trends to prevent overstocking during low-demand periods and shortages during peak wastage times (e.g., Q2–Q3 2023).
+Retailer Dimension (Costco, Walmart, Target, Walgreens)
+Product Dimension (Coca-Cola, Fanta, Sprite, etc.)
+Date Dimension (Year, Quarter, Month)
+Region Dimension (Region and State)
 
-- **Blood Group-Specific Allocation:** Tailor inventory levels for key blood groups like O Negative and A Negative to address fluctuations in issues and wastage effectively.
+This structure enables flexible analysis across multiple business perspectives while maintaining high report performance.
 
-- **Enhanced Monitoring of Platelets and Frozen Components:** Closely track and address rising wastage trends in Platelets and Adult FFP, particularly the surges observed in Q1–Q3 2023.
+
+## DATA ANALYSIS
+
+### KPI Performance Overview
+
+The dashboard reports a total sales revenue of **$1.21 million** generated from **2.31 million units sold** across **4 major retailers**. The KPI tracker recorded **238,850**, which is slightly below the target of **250,000**, representing a performance gap of approximately **4%**. Despite this shortfall, overall sales volume and revenue indicate strong market penetration and consistent demand across retailers.
+
+### Sales Trend Analysis
+
+The monthly sales trend demonstrates a steady increase throughout the year. Sales started at approximately **82K** in January and experienced gradual growth through the first half of the year. The strongest growth period occurred between **May and August**, where sales increased significantly and reached a peak of approximately **116K** in August.
+
+Following this peak, sales declined slightly during September and October before recovering in November and December. The year ended with sales levels close to the annual peak, suggesting strong year-end demand and positive sales momentum.
+
+**Key Insights:**
+
+* August recorded the highest monthly sales performance.
+* Sales growth accelerated significantly during Q2 and Q3.
+* A temporary slowdown occurred in September–October.
+* Strong recovery in Q4 indicates sustained customer demand.
+
+### Regional Sales Analysis
+
+The regional map visualization highlights variations in sales performance across different states and regions. Texas appears to be one of the strongest-performing locations, contributing significantly to overall sales revenue.
+
+The geographical analysis provides management with valuable insights into high-performing markets and areas that may require additional marketing efforts, distribution support, or retailer engagement.
+
+**Key Insights:**
+
+* Sales are concentrated in a few high-performing regions.
+* Certain states contribute disproportionately to overall revenue.
+* Geographic performance monitoring can support expansion and resource allocation decisions.
+
+### Retailer Performance Analysis
+
+Retailer analysis shows that **Walmart** generated the highest sales revenue, contributing approximately **392K**, making it the company's most valuable retail partner.
+
+**Costco** ranked second with approximately **332K** in sales, followed by **Walgreens** at **251K** and **Target** at **239K**.
+
+This distribution indicates that Walmart and Costco account for a significant portion of total revenue and should remain key strategic partners.
+
+**Key Insights:**
+
+* Walmart is the top-performing retailer.
+* Costco is the second-largest contributor to sales.
+* Sales are concentrated among a small number of major retailers.
+* Opportunities exist to increase sales performance in Walgreens and Target locations.
+
+### Beverage Brand Performance Analysis
+
+Brand-level analysis reveals that **Dasani Water** is the best-performing product, generating approximately **234K** in sales revenue. Closely following are **Coca-Cola** (**228K**) and **Diet Coke** (**214K**).
+
+Among the beverage portfolio, **Fanta** recorded the lowest sales performance at approximately **167K**, while **Sprite** and **Powerade** generated moderate sales volumes.
+
+**Key Insights:**
+
+* Dasani Water is the highest-selling beverage brand.
+* Coca-Cola remains one of the company's strongest products.
+* Fanta presents potential opportunities for promotional campaigns and sales improvement.
+* Consumer demand appears strongest for water and cola-based beverages.
+
+### Overall Business Insights
+
+The dashboard reveals that PureSip Beverages experienced healthy sales growth throughout the year, supported primarily by Walmart, Costco, and top-performing brands such as Dasani Water and Coca-Cola. The strong upward sales trend observed during the middle and final months of the year suggests effective market demand and retailer performance.
+
+By leveraging Power BI's automated folder connection, management gains real-time visibility into sales performance across retailers, brands, and regions, enabling faster decision-making and more accurate business planning.
+
+
+## BUSINESS IMPACT
+
+The implementation of Power BI Folder Connections transformed PureSip Beverages' sales reporting process by automating data collection and integration from multiple retailer spreadsheets. Instead of manually consolidating quarterly sales files, Power BI automatically combines and refreshes data whenever new files are added to the designated folder.
+
+### Key Benefits Achieved
+
+#### Automated Data Integration
+
+The folder connection eliminated the need for manual data consolidation by automatically combining sales data from multiple retailers into a single reporting model.
+
+#### Improved Data Accuracy
+
+Standardized data processing reduced errors associated with manual data entry, spreadsheet manipulation, and inconsistent reporting formats.
+
+#### Faster Reporting
+
+Stakeholders gained access to near real-time sales insights, allowing them to monitor performance and respond more quickly to changing market conditions.
+
+#### Enhanced Decision-Making
+
+Interactive dashboards provided visibility into retailer performance, product demand, regional sales trends, and KPI achievement, enabling more informed business decisions.
+
+#### Scalability
+
+The solution can easily accommodate additional retailers, regions, or sales files without requiring changes to the reporting process, supporting future business growth.
+
+---
+
+## RECOMMENDATIONS
+
+### Strengthen Relationships with Top Retailers
+
+Since Walmart and Costco contribute the largest share of sales revenue, PureSip should continue strengthening partnerships with these retailers through promotional campaigns, exclusive offers, and inventory support.
+
+### Improve Performance of Lower-Contributing Retailers
+
+Target and Walgreens generate comparatively lower sales volumes. Management should investigate opportunities to increase sales through localized marketing initiatives and product placement strategies.
+
+### Focus on High-Performing Beverage Brands
+
+Dasani Water, Coca-Cola, and Diet Coke consistently generate strong sales performance. Maintaining adequate inventory levels and promotional support for these brands will help sustain revenue growth.
+
+### Increase Promotion for Underperforming Products
+
+Fanta records the lowest sales among the featured brands. Targeted marketing campaigns, discounts, and retailer promotions could help improve its market performance.
+
+### Leverage Seasonal Demand Patterns
+
+Sales peak during the middle and latter part of the year, particularly between June and August. Forecasting and inventory planning should align with these seasonal trends to prevent stock shortages and maximize revenue opportunities.
+
+### Expand Regional Analysis
+
+Further investigation into top-performing and underperforming regions can help identify growth opportunities and optimize distribution strategies.
+
+---
+
+## CONCLUSION
+
+This project demonstrates how Power BI Folder Connections can effectively automate sales data integration and reporting processes. By connecting multiple retailer spreadsheets through a centralized folder, PureSip Beverages eliminated manual data consolidation, improved data accuracy, and significantly reduced reporting workload.
+
+The resulting dashboard provides valuable insights into sales trends, retailer performance, regional distribution, and beverage brand performance. Key findings revealed strong contributions from Walmart and Costco, increasing sales momentum throughout the year, and high demand for products such as Dasani Water and Coca-Cola.
+
+Overall, the solution showcases how Power BI can transform fragmented spreadsheet-based reporting into a scalable, automated, and data-driven business intelligence system that supports faster and more effective decision-making.
+
+---
 
 ## THANK YOU
-For more information, you can contact me
-![image](https://github.com/user-attachments/assets/400a6867-54ca-409f-b788-6d12b14d0833)
+
+Thank you for taking the time to review this case study.
+
+For questions, collaboration opportunities, or feedback, please feel free to contact me.
+
+
