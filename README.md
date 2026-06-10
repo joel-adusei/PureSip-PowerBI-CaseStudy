@@ -7,7 +7,8 @@
 This case study demonstrates how PureSip Beverages leveraged Microsoft Excel and Power BI to automate sales data integration through local folder connectivity. By connecting Power BI directly to a centralized folder containing retailer sales spreadsheets, the company eliminated manual data consolidation, improved reporting accuracy, and streamlined its sales analysis process.
 
 The solution enabled automatic data refresh whenever new sales files were added to the folder, ensuring stakeholders always had access to the latest sales information. Interactive dashboards were developed to provide visibility into sales performance, retailer contributions, regional trends, product demand, and revenue generation.
-![image](https://github.com/user-attachments/assets/b256cb67-793a-4229-94ab-b1581ecf4cad)
+
+  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/ChatGPT%20Image%20Jun%2010,%202026,%2007_57_05%20PM.png?raw=true)
 
 ## PROBLEM STATEMENT
 PureSip Beverages distributes popular beverage brands such as Coca-Cola, Fanta, and Sprite to major retailers including Costco, Walmart, Target, and Walgreens. Each regional manager maintained separate sales spreadsheets, creating several operational challenges:
@@ -49,7 +50,7 @@ Created relationships between sales transactions and supporting dimensions such 
 Developed interactive dashboards and visualizations to uncover trends in revenue, units sold, retailer performance, and regional sales distribution.
 
 
-## Data MODELLING
+## DATA MODELLING
 The project follows a star schema data model designed to support efficient reporting and analysis.
 
 The central Sales Fact Table contains transactional metrics such as Units Sold, Sales Revenue, Order Date, Payment Date, and Price per Unit. This table is connected to several dimension tables, including:
@@ -70,6 +71,8 @@ The dashboard reports a total sales revenue of **$1.21 million** generated from 
 
 ### Sales Trend Analysis
 
+### **Sales by Month**
+
 The monthly sales trend demonstrates a steady increase throughout the year. Sales started at approximately **82K** in January and experienced gradual growth through the first half of the year. The strongest growth period occurred between **May and August**, where sales increased significantly and reached a peak of approximately **116K** in August.
 
 Following this peak, sales declined slightly during September and October before recovering in November and December. The year ended with sales levels close to the annual peak, suggesting strong year-end demand and positive sales momentum.
@@ -81,7 +84,16 @@ Following this peak, sales declined slightly during September and October before
 * A temporary slowdown occurred in September–October.
 * Strong recovery in Q4 indicates sustained customer demand.
 
-### Regional Sales Analysis
+  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/sales%20trend.JPG?raw=true)
+
+
+
+
+## Total Sales | Region, Retailer, and Beverage Brand
+
+
+### **Regional Sales Analysis**
+
 
 The regional map visualization highlights variations in sales performance across different states and regions. Texas appears to be one of the strongest-performing locations, contributing significantly to overall sales revenue.
 
@@ -93,7 +105,9 @@ The geographical analysis provides management with valuable insights into high-p
 * Certain states contribute disproportionately to overall revenue.
 * Geographic performance monitoring can support expansion and resource allocation decisions.
 
-### Retailer Performance Analysis
+  
+### **Retailer Performance Analysis**
+
 
 Retailer analysis shows that **Walmart** generated the highest sales revenue, contributing approximately **392K**, making it the company's most valuable retail partner.
 
@@ -108,7 +122,9 @@ This distribution indicates that Walmart and Costco account for a significant po
 * Sales are concentrated among a small number of major retailers.
 * Opportunities exist to increase sales performance in Walgreens and Target locations.
 
-### Beverage Brand Performance Analysis
+ 
+### **Beverage Brand Performance Analysis**
+
 
 Brand-level analysis reveals that **Dasani Water** is the best-performing product, generating approximately **234K** in sales revenue. Closely following are **Coca-Cola** (**228K**) and **Diet Coke** (**214K**).
 
@@ -120,6 +136,11 @@ Among the beverage portfolio, **Fanta** recorded the lowest sales performance at
 * Coca-Cola remains one of the company's strongest products.
 * Fanta presents potential opportunities for promotional campaigns and sales improvement.
 * Consumer demand appears strongest for water and cola-based beverages.
+
+
+  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/total%20sales.JPG?raw=true)
+
+  
 
 ### Overall Business Insights
 
