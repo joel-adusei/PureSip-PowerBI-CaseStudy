@@ -70,7 +70,8 @@ This structure enables flexible analysis across multiple business perspectives w
 
 The dashboard reports a total sales revenue of **$1.21 million** generated from **2.31 million units sold** across **4 major retailers**. The KPI tracker recorded **238,850**, which is slightly below the target of **250,000**, representing a performance gap of approximately **4%**. Despite this shortfall, overall sales volume and revenue indicate strong market penetration and consistent demand across retailers.
 
-### Sales Trend Analysis
+## Sales Trend Analysis
+
 
 ### **Sales by Month**
 
