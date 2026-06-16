@@ -82,6 +82,14 @@ I wrote DAX measures for:
 ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/dax%203.JPG?raw=true)
 
 
+**STEP 2: DASHBOARD DEVELOPMENT**
+
+This dashboard provides a comprehensive analysis of sales performance and market penetration for Pure Sip’s beverage products. Focusing on data from 2022 to 2023, it integrates interactive parameters, including a "Beverage Brand" and a "Contact" filter, that allow users to drill down and analyze specific segments. This enables a focused analysis of regional sales via the interactive map, retailer performance across major outlets like Walmart and Costco, and top-performing brands such as Dasani Water, highlighting overall sales trends and volume.
+
+![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/sales%20analysis%20dashboard.JPG?raw=true)
+
+
+
 ## DATA ANALYSIS
 
 ### KPI Performance Overview
