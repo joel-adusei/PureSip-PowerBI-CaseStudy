@@ -38,7 +38,7 @@ Traditional spreadsheet reporting provided limited capabilities for advanced ana
 ## METHODOLOGY 
 Explored retailer sales datasets to understand key fields, business relationships, and reporting requirements.
 
-** STEP 1: ETL Process**
+**STEP 1: ETL PROCESS**
 
 - Extracted data from multiple Excel files stored in a centralized folder "Pure Sip Data Folder"
 
@@ -50,7 +50,7 @@ Explored retailer sales datasets to understand key fields, business relationship
  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%202.JPG?raw=true)
  
 
-- Combined, Transformded, and Cleaned the data using Power Query, and loaded it into Power BI.
+- Combined, transformed, cleaned the data using Power Query, and loaded it into Power BI.
 
  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%203.JPG?raw=true)
 
@@ -59,6 +59,27 @@ Explored retailer sales datasets to understand key fields, business relationship
 
 
 ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%205.JPG?raw=true)
+
+
+
+**STEP 2: DAX MEASURES**
+
+I wrote DAX measures for:
+
+- No of Retailers
+
+
+![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/dax%201.JPG?raw=true)
+
+
+- Total Quantity Sold
+
+![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/dax%202.JPG?raw=true)
+
+
+- Total Sales
+
+![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/dax%203.JPG?raw=true)
 
 
 ## DATA ANALYSIS
