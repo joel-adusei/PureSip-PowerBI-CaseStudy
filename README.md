@@ -38,30 +38,27 @@ Traditional spreadsheet reporting provided limited capabilities for advanced ana
 ## METHODOLOGY 
 Explored retailer sales datasets to understand key fields, business relationships, and reporting requirements.
 
-**ETL Process**
+** STEP 1: ETL Process**
 
-Extracted data from multiple Excel files stored in a centralized folder, transformed and cleaned the data using Power Query, and loaded it into Power BI.
-
-**DATA MODELING**
-
-Created relationships between sales transactions and supporting dimensions such as Date, Retailer, Product, and Region.
-
-**Analysis & Visualization**
-
-Developed interactive dashboards and visualizations to uncover trends in revenue, units sold, retailer performance, and regional sales distribution.
+- Extracted data from multiple Excel files stored in a centralized folder "Pure Sip Data Folder"
 
 
-## DATA MODELLING
-The project follows a star schema data model designed to support efficient reporting and analysis.
+ ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%201.JPG?raw=true)
 
-The central Sales Fact Table contains transactional metrics such as Units Sold, Sales Revenue, Order Date, Payment Date, and Price per Unit. This table is connected to several dimension tables, including:
 
-Retailer Dimension (Costco, Walmart, Target, Walgreens)
-Product Dimension (Coca-Cola, Fanta, Sprite, etc.)
-Date Dimension (Year, Quarter, Month)
-Region Dimension (Region and State)
 
-This structure enables flexible analysis across multiple business perspectives while maintaining high report performance.
+ ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%202.JPG?raw=true)
+ 
+
+- Combined, Transformded, and Cleaned the data using Power Query, and loaded it into Power BI.
+
+ ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%203.JPG?raw=true)
+
+
+ ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%204.JPG?raw=true)
+
+
+![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection%205.JPG?raw=true)
 
 
 ## DATA ANALYSIS
