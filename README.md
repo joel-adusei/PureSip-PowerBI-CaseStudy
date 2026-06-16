@@ -3,7 +3,7 @@
 
  ![image](https://github.com/joel-adusei/PureSip-PowerBI-CaseStudy/blob/main/images/folder%20connection.png?raw=true)
 
-***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
+***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on a sales transaction dataset*
 ## INTRODUCTION
 This case study demonstrates how PureSip Beverages leveraged Microsoft Excel and Power BI to automate sales data integration through local folder connectivity. By connecting Power BI directly to a centralized folder containing retailer sales spreadsheets, the company eliminated manual data consolidation, improved reporting accuracy, and streamlined its sales analysis process.
 
