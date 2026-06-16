@@ -5,7 +5,7 @@
 
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on a sales transaction dataset*
 ## INTRODUCTION
-This case study demonstrates how PureSip Beverages leveraged Microsoft Excel and Power BI to automate sales data integration through local folder connectivity. By connecting Power BI directly to a centralized folder containing retailer sales spreadsheets, the company eliminated manual data consolidation, improved reporting accuracy, and streamlined its sales analysis process.
+This case study demonstrates how I leveraged Microsoft Excel and Power BI to automate PureSip's Beverages sales data integration through local folder connectivity. By connecting Power BI directly to a centralized folder containing retailer sales spreadsheets, the company eliminated manual data consolidation, improved reporting accuracy, and streamlined its sales analysis process.
 
 The solution enabled automatic data refresh whenever new sales files were added to the folder, ensuring stakeholders always had access to the latest sales information. Interactive dashboards were developed to provide visibility into sales performance, retailer contributions, regional trends, product demand, and revenue generation.
 
